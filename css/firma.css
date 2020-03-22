@@ -1,0 +1,256 @@
+
+body {
+    color: black;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+
+
+
+.menu-bar{
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    position: fixed;
+    width: 1000px;
+    z-index: 1;
+    color: white;
+}
+
+
+.menu-content ul {
+    list-style: inside none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    
+}
+
+
+
+.menu-content ul li a {
+    list-style: inside none;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.menu-content ul li a:hover{
+
+    border-bottom: solid 1px white;
+
+}
+
+
+
+.firma-menu{
+    font-size: 40px;
+}
+
+
+
+.boxone-imagebrand {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+.boxone-imagebrand h1 {
+    text-align: center;
+    font-size: 4.5rem;
+    z-index: 1;
+    color: white;
+    padding: 250px;
+}
+
+.vid-one{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.side-padding{
+    padding: 50px 120px 0 80px;
+}
+
+
+
+.white-text {
+    color: white;
+}
+
+
+
+.project-font {
+    font-size: 30px;
+}
+
+
+
+.project-title-font {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+.medium-text-size {
+    font-size: 20px;
+}
+
+.brand-introduction{
+    display: flex;
+    font-size: 50px;
+    justify-content: space-evenly;
+    line-height: 3rem;
+}
+
+
+
+.half-width {
+    width: 50%;
+}
+
+
+
+.our-approach {
+    display: flex;
+    padding-top: 50px;
+}
+
+
+
+.approach-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.approach-content a {
+    width: 70%;
+    text-decoration: none;
+    color: black;   
+    font-size: 30px;
+}
+
+
+
+.approach-content video {
+    width: 30%;
+}
+
+
+
+.esade-project {
+    background: url(../image/escade.jpg);
+    background-size: cover;
+    height: 600px;
+    max-width: 100%;
+    margin: 50px;
+}
+
+
+
+.kave-and-seat-projects {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.kave-project {
+
+    background: url(../image/communication.jpg) no-repeat;
+
+    background-size: cover;
+
+    margin-left: 80px;
+
+    width: 43%;
+
+}
+
+
+
+.seat-project {
+
+    background: url(../image/car.jpg) no-repeat;
+
+    background-size: cover;
+
+    margin-right: 80px;
+
+    width: 43%;
+
+}
+
+
+
+.fitstation-one {
+
+    background: url(../image/gym.jpg);
+
+    background-size: cover;
+
+    height: 651px;
+
+    max-width: 100%;
+
+    margin: 80px;
+
+}
+
+.view-case-studies {
+
+    height: 50px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.view-case-studies a {
+
+    text-decoration: underline;
+
+    color: black;
+
+    font-size: 25px;
+
+}
+
+.our-thinking{
+
+    height: 400px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+}
+.carousel-item{
+    margin: 50px;
+}
+.view-service a{
+    color:black !important;
+    text-align: center;  
+}
